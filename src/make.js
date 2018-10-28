@@ -14,20 +14,6 @@ function make(x) {
         }
         return arr.reduce(y, 0);
     }
-
-
-
-
-
-    // return function(y,z,a) {
-    //         return function (b){
-    //           return function(sum){
-    //               return x+y+z+a+b;
-    //           };
-    //         }
-    // };
 };
-
-
 
 module.exports = make
